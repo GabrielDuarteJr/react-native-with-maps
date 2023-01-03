@@ -2,7 +2,7 @@ import React from 'react';
 import MapView from 'react-native-maps';
 import {StyleSheet, View} from 'react-native';
 
-const App = () => {
+const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <MapView
@@ -21,8 +21,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     ...StyleSheet.absoluteFillObject,
-    height: 400,
-    width: 400,
+    flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
@@ -31,4 +30,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default HomeScreen;
