@@ -5,6 +5,8 @@
 
     "baseUrl": ".",
 
+    "typeRoots": ["./src/types"],
+
     "paths": {
       "~/*": ["src/*"]
     },

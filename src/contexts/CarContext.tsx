@@ -36,7 +36,6 @@ export const CarProvider: React.FunctionComponent<{
     const interval = setInterval(() => {
       const currentIndex: number =
         itemIndex < VehicleLocationMock.length ? itemIndex : 0;
-      console.log(currentIndex, VehicleLocationMock.length);
 
       const {cordinates, orientation, distance, time} =
         VehicleLocationMock[currentIndex];

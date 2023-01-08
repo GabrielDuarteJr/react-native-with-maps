@@ -1,4 +1,5 @@
 import React, {useMemo} from 'react';
+import {GOOGLE_MAPS_APIKEY} from 'react-native-dotenv';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import PinIcon from '~/assets/icons/Pin.svg';
@@ -6,8 +7,6 @@ import CarIcon from '~/assets/icons/Car.svg';
 import colors from '~/utils/colors';
 import {initialRegion} from '~/utils/constants';
 import {mapStyle} from './styles';
-
-const GOOGLE_MAPS_APIKEY = '################';
 
 interface NavigationMapInterface {
   origin: Cordinates;
