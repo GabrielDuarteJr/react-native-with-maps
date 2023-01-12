@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {CarContext} from '~/contexts/CarContext';
+import {CarContext} from '~/contexts/CarContext/CarContext';
 import NavigationMapComponent from '~/components/NavigationMapComponent/NavigationMapComponent';
 import CloseButtonComponent from '~/components/CloseButtonComponent/CloseButtonComponent';
 import InfoViewComponent from '~/components/InfoViewComponent/InfoViewComponent';

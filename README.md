@@ -8,7 +8,7 @@ An example of using the google maps api in a react native application.
 
 ### Installation Google Maps Api
 
-- Create the `.env` file in the root of the project and insert your Android SDK api key in the `GOOGLE_MAPS_APIKEY` variable, as in the `.env.exemple` file.
+- Create the `.env` file in the root of the project and insert your Android SDK api key in the `GOOGLE_MAPS_APIKEY` variable, as in the `.env.example` file.
 
 - Setup the `react-native-maps` in native projects.
 

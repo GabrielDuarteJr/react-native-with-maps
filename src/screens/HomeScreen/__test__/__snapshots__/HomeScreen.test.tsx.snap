@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen should render without crashing 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <View />
+    <View>
+      <Text>
+        [object Object]
+      </Text>
+      <Text>
+        -20
+      </Text>
+      <SvgMock />
+    </View>
+    <View>
+      <Text>
+        [object Object]
+      </Text>
+      <Text />
+      <SvgMock />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 50,
+          "justifyContent": "center",
+          "paddingHorizontal": "5%",
+          "position": "absolute",
+          "top": "5%",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 30,
+          "elevation": 1,
+          "height": 44,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 44,
+        }
+      }
+      testID="button-container"
+    >
+      <SvgMock />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "bottom": 8,
+          "height": "35%",
+          "justifyContent": "center",
+          "position": "absolute",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "elevation": 2,
+            "height": "100%",
+            "width": "90%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#F7F7F7",
+              "borderBottomColor": "#EFEFF4",
+              "borderBottomWidth": 1,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": "25%",
+              "paddingHorizontal": 10,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "20%",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/Profile.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 50,
+                  "width": 50,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "40%",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#242E42",
+                  "fontFamily": "SF UI Display",
+                  "fontSize": 17,
+                  "lineHeight": 20,
+                },
+              ]
+            }
+          >
+            Gregory Smith
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+              ]
+            }
+          >
+            <SvgMock />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#C8C7CC",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 15,
+                    "lineHeight": 18,
+                    "marginLeft": 5,
+                  },
+                ]
+              }
+            >
+              4.9
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "height": "100%",
+                "justifyContent": "space-around",
+                "paddingLeft": 15,
+                "width": "40%",
+              },
+            ]
+          }
+        >
+          <SvgMock />
+          <SvgMock />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "#EFEFF4",
+              "borderBottomWidth": 1,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": "35%",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "20%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#4CE5B1",
+                  "borderRadius": 10,
+                  "borderWidth": 2,
+                  "height": 19,
+                  "justifyContent": "center",
+                  "width": 19,
+                },
+              ]
+            }
+          >
+            <SvgMock />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#C8C7CC",
+                  "borderStyle": "dashed",
+                  "borderWidth": 1,
+                  "height": 25,
+                },
+              ]
+            }
+          />
+          <SvgMock />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "height": "100%",
+                "width": "80%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "#EFEFF4",
+                  "borderBottomWidth": 1,
+                  "height": "50%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#242E42",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                  },
+                ]
+              }
+            >
+              7958 Swift Village
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "height": "50%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#242E42",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                  },
+                ]
+              }
+            >
+              105 William St, Chicago, US
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": "40%",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": "50%",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "25%",
+                },
+              ]
+            }
+          >
+            <SvgMock />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "25%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#C8C7CC",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 13,
+                    "lineHeight": 16,
+                    "marginBottom": 5,
+                  },
+                ]
+              }
+            >
+              Distance
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#242E42",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 15,
+                    "lineHeight": 18,
+                  },
+                ]
+              }
+            >
+              6.5 km
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "25%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#C8C7CC",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 13,
+                    "lineHeight": 16,
+                    "marginBottom": 5,
+                  },
+                ]
+              }
+            >
+              Time
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#242E42",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 15,
+                    "lineHeight": 18,
+                  },
+                ]
+              }
+            >
+              2 min
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "25%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#C8C7CC",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 13,
+                    "lineHeight": 16,
+                    "marginBottom": 5,
+                  },
+                ]
+              }
+            >
+              Price
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#242E42",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 15,
+                    "lineHeight": 18,
+                  },
+                ]
+              }
+            >
+              $25.00
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": "50%",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#242E42",
+                "borderRadius": 8,
+                "height": "80%",
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": "90%",
+              }
+            }
+            testID="button-cancel-container"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "SF UI Display",
+                    "fontSize": 17,
+                    "lineHeight": 20,
+                  },
+                ]
+              }
+            >
+              Cancel Request
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
