@@ -5,6 +5,8 @@
 
     "baseUrl": ".",
 
+    "types": ["@types/jest"],
+
     "typeRoots": ["./src/types"],
 
     "paths": {
