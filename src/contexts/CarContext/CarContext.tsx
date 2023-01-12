@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import VehicleLocationMock from '~/utils/mocks/VehicleLocationMock';
 
-interface CarContextInterface {
+export interface CarContextInterface {
   origin: Cordinates;
   carOrientation: number;
   carDistance: number;
