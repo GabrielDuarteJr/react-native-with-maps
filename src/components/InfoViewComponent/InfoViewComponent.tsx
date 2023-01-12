@@ -114,7 +114,9 @@ const InfoViewComponent: React.FunctionComponent<InfoViewIterface> = ({
           </TrevelParamsView>
 
           <ButtonView>
-            <CancelButtonTouchableOpacity onPress={onCancel}>
+            <CancelButtonTouchableOpacity
+              onPress={onCancel}
+              testID="button-cancel-container">
               <CancelButtonText>Cancel Request</CancelButtonText>
             </CancelButtonTouchableOpacity>
           </ButtonView>
