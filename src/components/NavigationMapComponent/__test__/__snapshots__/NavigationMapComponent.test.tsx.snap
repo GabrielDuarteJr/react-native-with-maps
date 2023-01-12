@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationMapComponent should render without crashing 1`] = `
+<View>
+  <View />
+  <View>
+    <Text>
+      [object Object]
+    </Text>
+    <Text>
+      20
+    </Text>
+    <SvgMock />
+  </View>
+  <View>
+    <Text>
+      [object Object]
+    </Text>
+    <Text />
+    <SvgMock />
+  </View>
+</View>
+`;
